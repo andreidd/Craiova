@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">@color/skylineBlueCityHall</color>
+    <color name="colorPrimaryDark">@color/skylineBlueCityHall</color>
+    <color name="colorAccent">#DBD49B</color>
+    <!--<color name="colorAccent">#eadb5f</color>-->
+
+    <color name="lineSeparator">#CDECFB</color>
+    <color name="pattensBlueDarker">#9dbbca</color>
+    <color name="cerise">#E73660</color>
+    <color name="shakespeare">#6A92B3</color>
+    <color name="pictonBlue">#66A8D2</color>
+    <color name="prussianBlue">#103F68</color>
+    <color name="lochmara">#3570A1</color>
+
+    <color name="tileBackground">#155084</color>
+    <color name="skylineBlue">#1d6cb9</color>
+    <color name="skylineBlueCityHall">#0850A0</color>
+    <!--<color name="skylineBlueCityHall">#1a1a1a</color>-->
+    <color name="redFlag">#FD7981</color>
+</resources>

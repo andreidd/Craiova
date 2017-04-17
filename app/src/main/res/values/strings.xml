@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Craiova Mea</string>
+    <string name="title_activity_splashscreen">SplashscreenActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="add_complaint">Adauga sesizare</string>
+    <string name="my_complaints">Sesizarile mele</string>
+    <string name="login">Intra in aplicatie</string>
+    <string name="welcome">Bine ai venit</string>
+</resources>
