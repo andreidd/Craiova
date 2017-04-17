@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
@@ -42,14 +43,34 @@ public class MyRecordsFragment extends Fragment {
 		LinearLayoutManager mLayoutManager = new LinearLayoutManager(getContext());
 		mRecyclerView.setLayoutManager(mLayoutManager);
 
+		Calendar cal = Calendar.getInstance();
+		cal.setTime(new Date());
 		List<ComplaintBean> data = new ArrayList<>();
-		data.add(new ComplaintBean(new Date(), "Urbanistica", "Strada Floresti"));
-		data.add(new ComplaintBean(new Date(), "Urbanistica", "Strada Floresti"));
-		data.add(new ComplaintBean(new Date(), "Locala", "Bulevardul Decebal nr. 31"));
-		data.add(new ComplaintBean(new Date(), "Urbanistica", "Strada Floresti"));
-		data.add(new ComplaintBean(new Date(), "Vandalism", "Bvd. A.I. Cuza"));
-		data.add(new ComplaintBean(new Date(), "Urbanistica", "Strada Floresti"));
-		data.add(new ComplaintBean(new Date(), "Urbanistica", "Strada Floresti"));
+		data.add(new ComplaintBean(cal.getTime(), "Urbanistica", "Strada Floresti"));
+		cal.add(Calendar.DAY_OF_MONTH, 1);
+		cal.add(Calendar.HOUR, 1);
+		cal.add(Calendar.MINUTE, 15);
+		data.add(new ComplaintBean(cal.getTime(), "Urbanistica", "Strada Floresti"));
+		cal.add(Calendar.DAY_OF_MONTH, 1);
+		cal.add(Calendar.HOUR, 1);
+		cal.add(Calendar.MINUTE, 15);
+		data.add(new ComplaintBean(cal.getTime(), "Locala", "Bulevardul Decebal nr. 31"));
+		cal.add(Calendar.DAY_OF_MONTH, 1);
+		cal.add(Calendar.HOUR, 1);
+		cal.add(Calendar.MINUTE, 15);
+		data.add(new ComplaintBean(cal.getTime(), "Urbanistica", "Strada Floresti"));
+		cal.add(Calendar.DAY_OF_MONTH, 1);
+		cal.add(Calendar.HOUR, 1);
+		cal.add(Calendar.MINUTE, 15);
+		data.add(new ComplaintBean(cal.getTime(), "Vandalism", "Bvd. A.I. Cuza"));
+		cal.add(Calendar.DAY_OF_MONTH, 1);
+		cal.add(Calendar.HOUR, 1);
+		cal.add(Calendar.MINUTE, 15);
+		data.add(new ComplaintBean(cal.getTime(), "Urbanistica", "Strada Floresti"));
+		cal.add(Calendar.DAY_OF_MONTH, 1);
+		cal.add(Calendar.HOUR, 1);
+		cal.add(Calendar.MINUTE, 15);
+		data.add(new ComplaintBean(cal.getTime(), "Urbanistica", "Strada Floresti"));
 		MyRecrodsAdapter adapter = new MyRecrodsAdapter(data);
 		mRecyclerView.setAdapter(adapter);
 

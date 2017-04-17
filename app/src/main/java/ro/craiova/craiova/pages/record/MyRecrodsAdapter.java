@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import ro.craiova.craiova.R;
+import ro.craiova.craiova.business.AppUtils;
 import ro.craiova.craiova.business.bean.ComplaintBean;
 
 /**
@@ -55,7 +56,7 @@ public class MyRecrodsAdapter extends RecyclerView.Adapter<MyRecrodsAdapter.View
 		}
 
 		public void bindBean(ComplaintBean bean) {
-			dateTV.setText(bean.getDate().toString());
+			dateTV.setText(AppUtils.formatHumanReadableDate(bean.getDate()));
 			typeTV.setText(bean.getType());
 			locationTV.setText(bean.getLocation());
 		}
