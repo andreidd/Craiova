@@ -13,7 +13,7 @@
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/craiova4" />
+            android:src="@drawable/craiova7" />
 
         <View
             android:background="@color/lineSeparator"
@@ -26,12 +26,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
-            android:fontFamily="casual"
             android:gravity="center"
             android:paddingBottom="16dp"
             android:paddingTop="16dp"
             android:text="@string/welcome"
-            android:textColor="@color/colorAccent"
+            android:textColor="@color/textColor"
             android:textSize="24sp" />
 
         <View
@@ -44,7 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="2dp"
-            android:background="?attr/selectableItemBackground"
+            android:background="@color/fragmentBackgroundColor"
             android:clickable="true"
             android:orientation="horizontal">
 
@@ -63,18 +62,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:fontFamily="monospace"
+                    
                     android:gravity="center"
                     android:text="Sesizari"
-                    android:textColor="@color/colorAccent"
-                    android:alpha="0.7"
+                    android:textColor="@color/textColor"
                     android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:fontFamily="monospace"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:drawableLeft="@drawable/ic_warning_black_24dp"
@@ -105,18 +102,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:fontFamily="monospace"
+                    android:alpha="0.7"
                     android:gravity="center_horizontal"
                     android:text="Sesizarile mele"
-                    android:textColor="@color/colorAccent"
-                    android:alpha="0.7"
+                    android:textColor="@color/textColor"
                     android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:fontFamily="monospace"
                     android:gravity="center_horizontal"
                     android:layout_gravity="center"
                     android:drawableLeft="@drawable/ic_dvr_black_24dp"
@@ -138,9 +133,9 @@
         <LinearLayout
             android:id="@+id/callPolice"
             android:clickable="true"
+            android:background="@color/fragmentBackgroundColor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -156,23 +151,21 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:fontFamily="monospace"
+                    android:alpha="0.7"
                     android:gravity="center"
                     android:text="Dispecerat politie"
-                    android:textColor="@color/colorAccent"
-                    android:alpha="0.7"
+                    android:textColor="@color/textColor"
                     android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:fontFamily="monospace"
-                    android:gravity="center"
                     android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
                     android:drawableLeft="@drawable/ic_phone_black_24dp"
                     android:drawablePadding="8dp"
                     android:drawableTint="@color/colorAccent"
+                    android:gravity="center"
                     android:text="0251/542.235"
                     android:textColor="@color/colorAccent"
                     android:textSize="16sp" />
@@ -198,18 +191,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:fontFamily="monospace"
+                    android:alpha="0.7"
                     android:gravity="center_horizontal"
                     android:text="Telefonul primariei"
-                    android:textColor="@color/colorAccent"
-                    android:alpha="0.7"
+                    android:textColor="@color/textColor"
                     android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:fontFamily="monospace"
                     android:gravity="center_horizontal"
                     android:layout_gravity="center"
                     android:drawableLeft="@drawable/ic_phone_black_24dp"

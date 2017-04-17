@@ -8,7 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
 
         <!-- Float text underline color -->
-        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/floatUnderline</item>
         <item name="colorButtonNormal">@color/colorAccent</item>
     </style>
 

@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements MainFragment.OnMa
 		Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 		setSupportActionBar(toolbar);
 		toolbar.setTitle(R.string.app_name);
+		toolbar.setTitleTextColor(ContextCompat.getColor(this, R.color.floatUnderline));
 
 //		Palette p = createPaletteSync(BitmapFactory.decodeResource(getResources(), R.drawable.craiova4));
 //		Palette.Swatch vibrantSwatch = checkVibrantSwatch(p);

@@ -29,6 +29,7 @@ public class SplashscreenActivityFragment extends Fragment implements View.OnCli
 		rootView.findViewById(R.id.login).setOnClickListener(this);
 
 		prenume = (TextInputEditText) rootView.findViewById(R.id.prenume);
+		rootView.findViewById(R.id.headerImage).requestFocus();
 
 		return rootView;
 	}
